@@ -1,0 +1,6 @@
+random_state: 42
+validation_size: 0.20
+target_column: delivery_days
+tracking_uri: sqlite:///mlflow.db
+experiment_name: MP136_Parcel_Delivery_v1
+registered_model_name: mp136-parcel-delivery

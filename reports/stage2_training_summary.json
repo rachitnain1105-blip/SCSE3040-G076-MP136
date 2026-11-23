@@ -1,0 +1,26 @@
+{
+  "experiment_name": "MP136_Parcel_Delivery_v1",
+  "registered_model_name": "mp136-parcel-delivery",
+  "champion_version": "1",
+  "best_run_id": "467c031efb0e420e9f4b5645c9c52f8d",
+  "best_candidate": "extra_trees_200",
+  "best_validation_mae": 0.3613331250000003,
+  "data_sha256": "1188e6cbc7e9f4389bb7cbdb0c6aa63c6d327375dbce6ed1331de640f85d60ed",
+  "candidate_runs": [
+    {
+      "candidate": "random_forest_100",
+      "run_id": "c58f18a83f1b4d8287684d8293a30893",
+      "mae_validation": 0.403528
+    },
+    {
+      "candidate": "random_forest_regularized",
+      "run_id": "215e6f8550b24a4799721eb6156fc8c2",
+      "mae_validation": 0.4163806531657434
+    },
+    {
+      "candidate": "extra_trees_200",
+      "run_id": "467c031efb0e420e9f4b5645c9c52f8d",
+      "mae_validation": 0.3613331250000003
+    }
+  ]
+}

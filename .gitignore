@@ -26,3 +26,6 @@ mlruns/
 # OS files
 .DS_Store
 Thumbs.db
+
+# MLflow local artifact files (mlflow.db must be committed)
+mlartifacts/
